@@ -145,7 +145,7 @@ myfamily = {
   "child2" : child2,
   "child3" : child3
 } 
-print(myfamily["child2"]["name"])  # Access the dictionary in the dictionary
+print(myfamily["child2"]["name"])  # Access the dictionary 
 
 for x, obj in myfamily.items(): # Or just loop through it
   print(x)
