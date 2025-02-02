@@ -14,7 +14,10 @@ class Point:
 		dis = ((other_point.x - self.x)**2 + (other_point.y - self.y)**2)**(0.5)
 		print(f'Distance between two points is {round(dis, 2)}')
 
-point1 = Point(-2, -2)
-point2 = Point(2, 6)
+point1 = Point(int(input("Enter x coordinate of the first point: ")), int(input("Enter y coordinate of the first point: ")))
+point2 = Point(int(input("Enter x coordinate of the second point: ")), int(input("Enter y coordinate of the second point: ")))
+
+point1.show()
+point2.show()
 
 point1.dist(point2)
