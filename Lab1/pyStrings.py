@@ -40,7 +40,7 @@ c = a + b
 print(c)
 
 age = 36
-txt = "My name is Daniil, I am " + age
+txt = f"My name is Daniil, I am {age}"
 # txt = f"My name is John, I am {age}"
 print(txt)
 
