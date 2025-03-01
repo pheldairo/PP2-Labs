@@ -19,6 +19,6 @@ def list_directories_files(path):
     print("Files:", *files)
     print("All Directories and Files:", *all_directories_files)
 
-# Specify the path here
-path = './Lab6/dir'
+
+path = '/home/leph/Coding/'
 list_directories_files(path)
