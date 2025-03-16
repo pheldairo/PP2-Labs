@@ -10,8 +10,8 @@ screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Часы")
 
 clock_background = pygame.image.load("mainclock.png")
-second_hand = pygame.image.load("rightarm.png")
-minute_hand = pygame.image.load("leftarm.png")
+second_hand = pygame.image.load("l_arm.png")
+minute_hand = pygame.image.load("r_arm.png")
 
 clock_center_x = WINDOW_WIDTH // 2
 clock_center_y = WINDOW_HEIGHT // 2
