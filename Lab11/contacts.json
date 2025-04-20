@@ -1,0 +1,124 @@
+{
+    "contacts": [
+      {
+        "name": "Aidar",
+        "second_name": "Kuanysh",
+        "last_name": "Kazakhov",
+        "phone_number": "+77011234567"
+      },
+      {
+        "name": "Amina",
+        "second_name": "Zhanar",
+        "last_name": "Nurzhanova",
+        "phone_number": "+77022345678"
+      },
+      {
+        "name": "Bakhytzhan",
+        "second_name": "Murat",
+        "last_name": "Ibrahimov",
+        "phone_number": "+77053456789"
+      },
+      {
+        "name": "Dana",
+        "second_name": "Aisulu",
+        "last_name": "Tulegenova",
+        "phone_number": "+77074567890"
+      },
+      {
+        "name": "Yerlan",
+        "second_name": "Serik",
+        "last_name": "Satybaldy",
+        "phone_number": "+77085678901"
+      },
+      {
+        "name": "Gulnara",
+        "second_name": "Aigul",
+        "last_name": "Ospanova",
+        "phone_number": "+77476789012"
+      },
+      {
+        "name": "Kairat",
+        "second_name": "Bekzat",
+        "last_name": "Zhumabayev",
+        "phone_number": "+77007890123"
+      },
+      {
+        "name": "Madina",
+        "second_name": "Saltanat",
+        "last_name": "Kenzhebek",
+        "phone_number": "+77778901234"
+      },
+      {
+        "name": "Nurlan",
+        "second_name": "Alibek",
+        "last_name": "Abishev",
+        "phone_number": "+77019012345"
+      },
+      {
+        "name": "Zarina",
+        "second_name": "Aigerim",
+        "last_name": "Tursunova",
+        "phone_number": "+77020123456"
+      },
+      {
+        "name": "Ruslan",
+        "second_name": "Marat",
+        "last_name": "Karimov",
+        "phone_number": "+77051237890"
+      },
+      {
+        "name": "Samal",
+        "second_name": "Bayan",
+        "last_name": "Ismailova",
+        "phone_number": "+77072348901"
+      },
+      {
+        "name": "Talgat",
+        "second_name": "Yerzhan",
+        "last_name": "Suleimenov",
+        "phone_number": "+77083459012"
+      },
+      {
+        "name": "Ulbolsyn",
+        "second_name": "Gulzhan",
+        "last_name": "Kadyrova",
+        "phone_number": "+77474560123"
+      },
+      {
+        "name": "Shyngys",
+        "second_name": "Askar",
+        "last_name": "Nurgaliev",
+        "phone_number": "+77005671234"
+      },
+      {
+        "name": "Aizhan",
+        "second_name": "Dinara",
+        "last_name": "Zhunusova",
+        "phone_number": "+77776782345"
+      },
+      {
+        "name": "Berik",
+        "second_name": "Daulet",
+        "last_name": "Oralov",
+        "phone_number": "+77017893456"
+      },
+      {
+        "name": "Diana",
+        "second_name": "Altynay",
+        "last_name": "Sarsenova",
+        "phone_number": "+77028904567"
+      },
+      {
+        "name": "Yerbol",
+        "second_name": "Arman",
+        "last_name": "Kenzhetayev",
+        "phone_number": "+77059015678"
+      },
+      {
+        "name": "Zhansaya",
+        "second_name": "Aruzhan",
+        "last_name": "Mukhamedova",
+        "phone_number": "+77070126789"
+      }
+    ]
+  }
