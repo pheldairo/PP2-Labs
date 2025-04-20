@@ -1,7 +1,6 @@
 import psycopg2
 from config import load_config
 def get_records_by_pattern(pattern):
-    """ Query records from the phonebook table based on a pattern """
     records = []
     sql = """ SELECT person_id, name, last_name, phone_number FROM phone_book
               WHERE name ILIKE %s OR last_name ILIKE %s OR phone_number ILIKE %s """
@@ -11,7 +10,7 @@ def get_records_by_pattern(pattern):
         config = load_config()
         conn = psycopg2.connect(**config)
         cur = conn.cursor()
-        # Add wildcards for pattern matching
+
         search_pattern = f'%{pattern}%'
         cur.execute(sql, (search_pattern, search_pattern, search_pattern))
         records = cur.fetchall()
@@ -25,7 +24,7 @@ def get_records_by_pattern(pattern):
 
 
     # Example: Get records where name, surname, or phone contains 'an'
-search_pattern = input("Enter pattern to search for (name, surname, phone): ")
+search_pattern = input("Enter pattern: ")
 matched_records = get_records_by_pattern(search_pattern)
 if matched_records:
     print("\nMatching records found:")
